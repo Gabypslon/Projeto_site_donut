@@ -1,4 +1,4 @@
-<h3>Projeto Donut Shop</h3>
+<h1>Projeto Donut Shop</h1>
 
 Esse projeto é um site de uma loja de donuts fictícia, construído utilizando HTML e CSS. O objetivo principal do site é apresentar a loja, seus produtos e serviços aos visitantes.
 
