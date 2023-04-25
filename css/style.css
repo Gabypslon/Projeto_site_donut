@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+body {
+    background-image: url("../img/Img_background.png");
+    background-attachment: fixed;
+}
+
+.background_header {
+    /* cobertura rosa do rodapé*/
+    background-image: url("../img/Vector.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 12%;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+
+.cabeçalho { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.imagem_slogan {
+    width: 124px;
+    height: 131px;
+    margin-top: 1%;
+    /*correção da margem do background_header*/
+}
+
+.menu {
+    display: flex;
+    gap: 28px;
+    margin-top: -50px;
+    flex-wrap: wrap; 
+    /* para quebrar quando diminuir o tamanho da tela*/
+}
+
+.inicio {
+    font-family: 'Segoe Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* identical to box height, or 36px */
+    color: #AF2478;
+}
+
+.cardapio {
+    font-family: 'Segoe Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 148.9%;
+    /* identical to box height, or 36px */
+    color: #AF2478;
+}
+
+.contato {
+    font-family: 'Segoe Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 148.9%;
+    /* identical to box height, or 36px */
+    color: #AF2478;
+}
+
+.unidade {
+    font-family: 'Segoe Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 148.9%;
+    /* identical to box height, or 36px */
+    color: #AF2478;
+}
+
+.redes_sociais {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -45px;
+}
+
+/* MAIN -------------------------------------------------------------------------------------*/
+
+.main_header {
+
+    margin: 100px 8% 100px 8%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+
+
+}
+
+.apresentação {
+
+    background-color: #bef3f06b;
+    background: rgba(190,243,240,0.38);
+    border-radius: 10%;
+
+    
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+    width: 600px;
+
+    font-family: 'Ink Free';
+    color: #985A12;
+    text-shadow: 0px 4px 4px #FF9CD7;
+
+
+}
+
+.conteudo_esquerda {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    gap: 20px;
+    padding: 50px;
+  
+
+}
+
+.apresentação_titulo {
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    letter-spacing: 0.105em;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 56px;
+
+}
+
+.apresentação_subtitulo {
+
+
+    font-size: 30px;
+    line-height: 148.9%; /*espaçamento da fonte*/
+    font-weight: 700; /*grossura da fonte*/
+
+}
+
+.button_buy {
+
+    width: 400px;
+    height: 153px;
+    left: 135px;
+    top: 475px;
+    filter: drop-shadow(6px 8px 0px rgba(0, 0, 0, 0.37));
+    display: flex;
+    justify-content: center;
+
+}
+
+.img_donut {
+
+    width: 500px;
+    margin-top: 20px;
+    
+}
+
+/* DIVISÃO ------------------------------------------------------------------------------*/
+
+.divisao_pagina {
+     display: flex;
+     flex-wrap: wrap;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     margin-bottom: 20px;
+
+}
+
+.imagem_middle {
+
+    margin: 50px 8% 90px 8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; 
+
+
+}
+
+.balao_fala {
+
+    display: flex;
+    align-items: center;
+    padding: 5%;
+    width: 50%;
+
+}
+
+.rosquinha_draw {
+
+    display: flex;
+    align-items: center;
+    width: 40%;
+
+}
+
+/* FOOTER ------------------------------------------------------------------------------------------*/
+
+.footer {
+
+    background-color:#FDDCF0;
+
+} 
+
+
+.footer_full {
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: center;
+gap: 50px;
+padding: 50px 8% 50px 8%;
+
+
+}
+
+/* SLOGAN --------------------------------------*/
+
+.div_slogan_footer {
+
+    width: 209.13px;
+    height: 222px;
+
+}
+
+.slogan_footer {
+
+    width: 100%;
+
+
+}
+
+.menu_footer {
+
+background:#f5f5f594;
+border-radius: 5%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ align-content: space-around;
+ gap: 10px;
+ padding: 20px;
+
+}
+.menu_botoes {
+
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 4000;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #76154F;
+    text-shadow: 0px 4px 0px #FF9CD7;
+
+}
+
+.botoes_no_menu {
+/*botão*/
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #FFFEE5;
+width: 127.73px;
+height: 38.48px;
+left: 656px;
+top: 1716.06px;
+text-align: center;
+border-radius: 8px;
+filter: drop-shadow(3px 4px 0.9px rgba(0, 0, 0, 0.37));
+/*stilo da letra*/
+font-family: 'Segoe Script';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 148.9%;
+display: flex;
+align-items: center;
+text-align: center;
+color: #AF2478;
+}
+
+/* botões apps -----------------------------------*/
+
+.opcoes_apps {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    gap: 10px;
+    text-align: center;
+
+}
+
+.titulo_app {
+
+    display: flex;
+    align-content: center;
+    font-family: 'Ink Free';
+    font-style: normal;
+    font-weight: 4000;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    
+    color: #76154F;
+    text-shadow: 0px 4px 0px #FF9CD7;
+
+}
+
+.button_app {
+
+    display: flex;
+filter: drop-shadow(3px 4px 0.9px rgba(0, 0, 0, 0.37));
+    width: 100%
+    
+
+
+}
+
+@media(max-width: 800px){
+
+    body {
+    
+    }
+
+
+} 
