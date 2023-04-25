@@ -1,6 +1,6 @@
 <h1>🍩 Projeto Donut Shop</h1>
 
-Esse projeto é um site de uma [loja de donuts](https://gabypslon.github.io/Projeto_site_donut/) fictícia, construído utilizando HTML e CSS. O objetivo principal do site é apresentar a loja, seus produtos e serviços aos visitantes.
+Esse projeto é um site de uma [loja de donuts](https://gabypslon.github.io/Projeto_site_donut/) fictícia, construída utilizando HTML e CSS. O objetivo principal do site é apresentar a loja, seus produtos e serviços aos visitantes.
 
 <h2>Tecnologias Utilizadas</h2>
 
