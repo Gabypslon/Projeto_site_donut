@@ -18,8 +18,7 @@ Além dessas tecnologias básicas, futuramente serão adicionadas outras tecnolo
 
 <ul>Página principal: apresenta informações sobre a loja, como sua história e os produtos oferecidos.</ul>
 <ul>Página de produtos: apresenta os diferentes tipos de donuts disponíveis na loja.</ul>
-<ul>Página de contato: permite que os clientes entrem em contato com a loja.</ul>
-<ul>Página de cadastro: o cliente poderá se cadastrar para efetuar as compras. </u>
+<ul>Página de cadastro: o cliente poderá se cadastrar para efetuar as compras. </ul>
 <ul>Página de carrinho: permitirá que o usuário adicione produtos ao carrinho de compras e finalize a compra.</ul>
 
 <h2>Como contribuir</h2>
